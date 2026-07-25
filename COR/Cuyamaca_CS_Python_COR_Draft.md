@@ -12,6 +12,7 @@
 # Catalog Description
 
 Introduction to the discipline of computer science using the Python programming language with an emphasis on problem solving, algorithm development, object-oriented programming, and software engineering fundamentals. Students design, implement, test, debug, and document software solutions using structured programming techniques, functions, collections, file processing, exception handling, and classes. Students apply computational thinking and algorithmic problem-solving methodologies to develop maintainable software applications while utilizing professional programming practices and appropriate AI-assisted development tools. Laboratory instruction includes program development, testing, debugging, and execution.
+The course is intended as a first college-level programming course aligned with transfer-oriented Computer Science pathways. 
 
 ---
 
