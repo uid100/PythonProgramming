@@ -80,7 +80,7 @@ function renderCourseHeader(data) {
 
 function buildList(items) {
 
-    const ul = document.createElement("ul");
+    const ul = document.createElement("ol");
 
     items.forEach(item => {
 
