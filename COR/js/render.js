@@ -75,6 +75,7 @@ function renderHours(data) {
     const container =
         document.getElementById("hours-total");
 
+    // total hours
     container.innerHTML = `
         <p class="hours-line">
             <em>
@@ -92,6 +93,18 @@ function renderHours(data) {
             </em>
         </p>
     `;
+
+    // weekly hours
+    const weeklyContainer =
+        document.getElementById("hours-weekly");
+
+    weeklyContainer.innerHTML = `
+        <p>
+            ${data.weekly.lecture},
+            ${data.weekly.laboratory},
+            ${data.weekly.units}
+        </p>
+    `; 
 }
 
 function renderSection(data) {
