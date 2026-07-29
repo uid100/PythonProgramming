@@ -1,12 +1,20 @@
 {
-  "lecture": {
-    "contactHours": "48-54",
-    "homeworkHours": "96-108",
-    "totalHours": "144-162"
+  "total": {
+    "lecture": {
+      "contactHours": "48-54",
+      "homeworkHours": "96-108",
+      "totalHours": "144-162"
+    },
+    "laboratory": {
+      "contactHours": "48-54",
+      "homeworkHours": "0",
+      "totalHours": "48-54"
+    }
   },
-  "laboratory": {
-    "contactHours": "48-54",
-    "homeworkHours": "0",
-    "totalHours": "48-54"
+
+  "weekly": {
+    "lecture": "3 hours lecture",
+    "laboratory": "3 hours laboratory",
+    "units": "4 units"
   }
 }
