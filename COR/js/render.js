@@ -73,7 +73,7 @@ function buildList(items) {
 function renderHours(data) {
 
     const container =
-        document.getElementById("hours-banner");
+        document.getElementById("hours-total");
 
     container.innerHTML = `
         <p class="hours-line">
@@ -131,11 +131,13 @@ function renderSection(data) {
 async function initialize() {
 
     const container =
-        document.getElementById(
-            "course-content"
-        );
+        document.getElementById("course-content");
 
     try {
+
+        const hoursData =
+            await loadHours();
+        renderHours(hoursData);
 
         const manifest =
             await loadManifest();
