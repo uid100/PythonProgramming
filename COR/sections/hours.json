@@ -1,0 +1,12 @@
+{
+  "lecture": {
+    "contactHours": "48-54",
+    "homeworkHours": "96-108",
+    "totalHours": "144-162"
+  },
+  "laboratory": {
+    "contactHours": "48-54",
+    "homeworkHours": "0",
+    "totalHours": "48-54"
+  }
+}
