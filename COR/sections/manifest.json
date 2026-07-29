@@ -8,12 +8,10 @@
     "course-objectives",
     "method-of-evaluation",
     "special-materials-required",
-    "minimum-instructional-facilities"
+    "minimum-instructional-facilities",
+    "method-of-instruction"
   ],
   "next": [
-    "special-materials-required",
-    "minimum-instructional-facilities",
-    "method-of-instruction",
     "out-of-class-assignments",
     "texts-and-references",
     "exit-skills",
