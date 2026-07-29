@@ -1,0 +1,18 @@
+{
+  "title": "Course Content",
+  "items": [
+    "Introduction to Computers, the Internet, and the Web",
+    "Short history of C-based languages",
+    "Introduction to C Programming",
+    {
+      "title": "Structured Program Development in C",
+      "children": [
+        "Algorithms",
+        "Pseudocode",
+        "If",
+        "While",
+        "Operators"
+      ]
+    }
+  ]
+}

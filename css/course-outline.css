@@ -1,0 +1,64 @@
+body {
+    background: #fff;
+    color: #000;
+    font-family: Calibri, "Segoe UI", Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.25;
+    margin: 0;
+}
+
+.document {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 40px 60px;
+}
+
+.college-name {
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: .25rem;
+}
+
+.document-title {
+    text-align: center;
+    font-size: 14pt;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.course-title {
+    text-align: center;
+    font-size: 14pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.section {
+    margin-bottom: 1.5rem;
+}
+
+.section-title {
+    font-size: 12pt;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.section p {
+    margin: .25rem 0 .75rem;
+}
+
+.section ul {
+    margin-top: 0;
+    padding-left: 1.4rem;
+}
+
+.section li {
+    margin-bottom: .25rem;
+}
+
+.sub-list {
+    margin-top: .25rem;
+}
