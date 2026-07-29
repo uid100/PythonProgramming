@@ -12,6 +12,20 @@ async function loadManifest() {
     return response.json();
 }
 
+async function loadCourse() {
+
+   const response =
+        await fetch("data/course.json");
+
+    if (!response.ok) {
+        throw new Error(
+            "Unable to load course.json"
+        );
+    }
+
+    return response.json();
+}
+
 async function loadHours() {
 
     const response =
@@ -38,6 +52,30 @@ async function loadSection(sectionName) {
     }
 
     return response.json();
+}
+
+function renderCourseHeader(data) {
+
+    const container =
+        document.getElementById(
+            "course-header"
+        );
+
+    container.innerHTML = `
+        <header class="document-header">
+            <h1 class="college-name">
+                ${data.college}
+            </h1>
+
+            <h2 class="document-title">
+                ${data.document_title}
+            </h2>
+
+            <h3 class="course-title">
+                ${data.course_id} &mdash; ${data.course_title}
+            </h3>
+        </header>
+    `;
 }
 
 function buildList(items) {
