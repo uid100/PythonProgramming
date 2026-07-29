@@ -15,7 +15,7 @@ async function loadManifest() {
 async function loadCourse() {
 
    const response =
-        await fetch("data/course.json");
+        await fetch("course.json");
 
     if (!response.ok) {
         throw new Error(
