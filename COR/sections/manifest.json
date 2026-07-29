@@ -2,7 +2,9 @@
   "sections": [
     "catalog-description",
     "prerequisite",
-    "recommended-preparation",
+    "recommended-preparation"
+  ],
+  "next": [
     "course-content",
     "course-objectives",
     "method-of-evaluation",
