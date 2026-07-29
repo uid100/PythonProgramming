@@ -13,6 +13,12 @@ body {
     padding: 40px 60px;
 }
 
+.hours {
+    font-size: 10pt;
+    text-align: left;
+    font-style: italic;
+}
+
 .college-name {
     text-align: center;
     font-size: 16pt;
