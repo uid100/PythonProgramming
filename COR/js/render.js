@@ -121,9 +121,7 @@ function renderHours(data) {
                 Homework Hours: ${data.total.lecture.homeworkHours};
                 Total Student Learning Hours: ${data.total.lecture.totalHours}
             </em>
-        </p>
-
-        <p class="hours-line">
+            <br>
             <em>
                 Laboratory Contact Hours: ${data.total.laboratory.contactHours};
                 Homework Hours: ${data.total.laboratory.homeworkHours};
@@ -185,6 +183,9 @@ async function initialize() {
         document.getElementById("course-content");
 
     try {
+        const courseData =
+            await loadCourse();
+        renderCourseHeader(courseData);
 
         const hoursData =
             await loadHours();
