@@ -21,25 +21,24 @@ body {
 
 .college-name {
     text-align: center;
-    font-size: 16pt;
+    font-size: 12pt;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: .25rem;
+    margin-top: 2rem;
 }
 
 .document-title {
     text-align: center;
-    font-size: 14pt;
-    font-weight: bold;
-    margin-bottom: .5rem;
+    font-size: 12pt;
+    margin-bottom: 2rem;
 }
 
 .course-title {
-    text-align: center;
-    font-size: 14pt;
+    font-size: 12pt;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 2rem;
+    font-style: underline;
+    margin-bottom: 1rem;
 }
 
 .section {
