@@ -1,0 +1,19 @@
+{
+  "title": "Entrance Skills",
+  "items": [
+    {
+      "title": "Without the following skills, competencies and/or knowledge, students entering this course will be highly unlikely to succeed",
+      "children": [
+        "Demonstrate basic computer literacy.",
+        "Manage files and folders in a computer operating system.",
+        "Utilize common productivity software.",
+        "Interpret mathematical expressions.",
+        "Apply logical reasoning to solve problems.",
+        "Organize work using structured procedures.",
+        "Use web-based resources effectively.",
+        "Follow detailed technical instructions.",
+        "Communicate information in written form."
+        ]
+    }
+  ]
+}
