@@ -117,17 +117,17 @@ function renderHours(data) {
     container.innerHTML = `
         <p class="hours-line">
             <em>
-                Lecture Contact Hours: ${data.lecture.contactHours};
-                Homework Hours: ${data.lecture.homeworkHours};
-                Total Student Learning Hours: ${data.lecture.totalHours}
+                Lecture Contact Hours: ${data.total.lecture.contactHours};
+                Homework Hours: ${data.total.lecture.homeworkHours};
+                Total Student Learning Hours: ${data.total.lecture.totalHours}
             </em>
         </p>
 
         <p class="hours-line">
             <em>
-                Laboratory Contact Hours: ${data.laboratory.contactHours};
-                Homework Hours: ${data.laboratory.homeworkHours};
-                Total Student Learning Hours: ${data.laboratory.totalHours}
+                Laboratory Contact Hours: ${data.total.laboratory.contactHours};
+                Homework Hours: ${data.total.laboratory.homeworkHours};
+                Total Student Learning Hours: ${data.total.laboratory.totalHours}
             </em>
         </p>
     `;
