@@ -145,13 +145,11 @@ function renderHours(data) {
 
 function renderSection(data) {
 
-    const section =
-        document.createElement("section");
+    const section = document.createElement("section");
 
     section.className = "section";
 
-    const heading =
-        document.createElement("h4");
+    const heading = document.createElement("h4");
 
     heading.className = "section-title";
     heading.textContent = data.title;
@@ -159,7 +157,6 @@ function renderSection(data) {
     section.appendChild(heading);
 
     if (data.text) {
-
         const p =
             document.createElement("p");
 
