@@ -196,6 +196,7 @@ async function initialize() {
 
         for (const sectionName of manifest.sections) {
 
+            console.log(`Loading section: ${sectionName}`);
             const data =
                 await loadSection(sectionName);
 
