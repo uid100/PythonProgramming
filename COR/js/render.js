@@ -12,6 +12,20 @@ async function loadManifest() {
     return response.json();
 }
 
+async function loadHours() {
+
+    const response =
+        await fetch("sections/hours.json");
+
+    if (!response.ok) {
+        throw new Error(
+            "Unable to load hours.json"
+        );
+    }
+
+    return response.json();
+}
+
 async function loadSection(sectionName) {
     const response = await fetch(
         `sections/${sectionName}.json`
@@ -54,6 +68,30 @@ function buildList(items) {
     });
 
     return ul;
+}
+
+function renderHours(data) {
+
+    const container =
+        document.getElementById("hours-banner");
+
+    container.innerHTML = `
+        <p class="hours-line">
+            <em>
+                Lecture Contact Hours: ${data.lecture.contactHours};
+                Homework Hours: ${data.lecture.homeworkHours};
+                Total Student Learning Hours: ${data.lecture.totalHours}
+            </em>
+        </p>
+
+        <p class="hours-line">
+            <em>
+                Laboratory Contact Hours: ${data.laboratory.contactHours};
+                Homework Hours: ${data.laboratory.homeworkHours};
+                Total Student Learning Hours: ${data.laboratory.totalHours}
+            </em>
+        </p>
+    `;
 }
 
 function renderSection(data) {
