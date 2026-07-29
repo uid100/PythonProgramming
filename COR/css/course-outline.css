@@ -14,9 +14,10 @@ body {
 }
 
 .hours-total {
-    font-size: 9pt;
+    font-size: 8pt;
     text-align: left;
     font-style: italic;
+    margin-bottom: 2rem;
 }
 
 .college-name {
