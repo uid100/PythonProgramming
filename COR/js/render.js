@@ -80,7 +80,7 @@ function renderCourseHeader(data) {
 
 function buildList(items, numType = "1") {
 
-    const ul = document.createElement("ol");
+    const ol = document.createElement("ol");
     ol.setAttribute("type", numType);
 
     items.forEach(item => {
@@ -103,10 +103,10 @@ function buildList(items, numType = "1") {
             }
         }
 
-        ul.appendChild(li);
+        ol.appendChild(li);
     });
 
-    return ul;
+    return ol;
 }
 
 function renderHours(data) {
