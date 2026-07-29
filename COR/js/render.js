@@ -78,9 +78,10 @@ function renderCourseHeader(data) {
     `;
 }
 
-function buildList(items) {
+function buildList(items, numType = "1") {
 
     const ul = document.createElement("ol");
+    ol.setAttribute("type", numType);
 
     items.forEach(item => {
 
@@ -97,7 +98,7 @@ function buildList(items) {
 
             if (item.children?.length) {
                 li.appendChild(
-                    buildList(item.children)
+                    buildList(item.children, "a")
                 );
             }
         }
