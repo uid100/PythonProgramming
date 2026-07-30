@@ -10,12 +10,10 @@
     "special-materials-required",
     "minimum-instructional-facilities",
     "method-of-instruction",
-    "out-of-class-assignments"
-  ],
-  "text": "Required (Representative Example)",
-  "children": [
+    "out-of-class-assignments",
     "texts-and-references",
     "exit-skills",
-    "student-learning-outcomes"
+    "student-learning-outcomes",
+    "cid-alignment"
   ]
 }
