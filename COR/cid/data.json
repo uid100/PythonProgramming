@@ -1,6 +1,9 @@
 {
-    "title": "C-ID COMP 122 Alignment Notes",
-    "text": "This course is aligned with the C-ID COMP 122 descriptor.",
+    "title": "C-ID Alignment",
+    "textlines": [
+        "This course is aligned with the C-ID <strong>COMP 122</strong> descriptor.",
+        "https://data-c-idsystem.org/descriptors/final/show/341"
+    ],  
     "items": [
         "Programming Fundamentals.",
         "Algorithms and problem-solving methodologies.",

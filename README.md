@@ -5,6 +5,7 @@ Course Outline and Curriculum for COMP-122 compliant Python Programming course
 
 ### Data Sections
 
+|--------------------------------------------------|-------|
 |          section                                 | status  |
 |--------------------------------------------------|-------|
 |  1. [Catalog Description](/catalog-description)  | DRAFT |
@@ -22,3 +23,5 @@ Course Outline and Curriculum for COMP-122 compliant Python Programming course
 | 13. [exit-skills](exit)                          | DRAFT |
 | 14. [Student Learning Outcomes](/outcomes)       | DRAFT |
 | 15. [C-ID Alignment](/cid-alignment)             | DRAFT |
+|--------------------------------------------------|-------|
+
