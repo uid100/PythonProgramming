@@ -117,3 +117,16 @@ Covers identified high-level fundamental topics:
 | mobile development |
 
  *some of these may be added as additional topics based on student interest and course tempo.
+
+
+Analysis:
+
+- C-ID COMP 122 foundational programming expectations
+- aligns with the progression of topics in the identified OER textbook
+   - **Introduction to Python Programming**
+- conforms with existing department CORs (CS-119, CS-181, CS-182)
+- meets expectations for transfer-oriented first course in Computer Science that emphasizes:
+   - computational thinking, 
+   - software development practices, 
+   - and object-oriented programming
+- careful to avoid overemphasizing advanced topics.

@@ -16,8 +16,8 @@ https://uid100.github.io/PythonProgramming/COR
 | 1. [Catalog Description](/COR/01-catalog-description)                           | REVIEW  |
 | 2. [Prerequisite(s)](/COR/02-prerequisite)                                      | REVIEW  |
 | 3. [recommended-preparation](/COR/03-recommended-preparation)                   | REVIEW  |
-| 4. [entrance-skills](/COR/04-entrance-skills)                                   | DRAFT   |
-| 5. [course-content](/COR/05-course-content)                                     | DRAFT   |
+| 4. [entrance-skills](/COR/04-entrance-skills)                                   | REVIEW  |
+| 5. [course-content](/COR/05-course-content)                                     | REVIEW  |
 | 6. [course-objectives](/COR/06-course-objectives)                               | DRAFT   |
 | 7. [method-of-evaluation](/COR/07-methods-of-evaluation)                        | DRAFT   |
 | 8. [special-materials-required](/COR/08-special-materials-required)             | DRAFT   |
