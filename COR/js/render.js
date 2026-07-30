@@ -156,25 +156,29 @@ function renderHours(data) {
 function renderSection(data) {
 
     const section = document.createElement("section");
-
     section.className = "section";
 
     const heading = document.createElement("h4");
-
     heading.className = "section-title";
     heading.textContent = data.title;
-
     section.appendChild(heading);
 
-    if (data.text) {
-        const p =
-            document.createElement("p");
-
+    // handle 'text' format
+    if (data.text && typeof data.text === "string") {
+        const p = document.createElement("p");
         p.textContent = data.text;
-
         section.appendChild(p);
     }
 
+    // handle multi-line blocks with 'textlines' format
+    if (data.textlines && Array.isArray(data.textlines)) {
+        const p = document.createElement("p");
+        p.className = "multiline-text";
+        p.innerHTML = data.textlines.join("<br>");
+        section.appendChild(p);
+    }
+
+    // handle ordered list format with 'items' array
     if (data.items?.length) {
         section.appendChild(
             buildList(data.items)
