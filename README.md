@@ -22,7 +22,7 @@ Course Outline and Curriculum for COMP-122 compliant Python Programming course
 |  9. [minimum-instructional-facilities]()         |  DRAFT  |
 | 10. [method-of-instruction]()                    |  DRAFT  |
 | 11. [out-of-class-assignments]()                 |  DRAFT  |
-| 12. [textbook](/textbook)                        |  DRAFT  |
+| 12. [Textbook](/textbook)                        |  DRAFT  |
 | 13. [exit-skills](exit)                          |  DRAFT  |
 | 14. [Student Learning Outcomes](/outcomes)       |  DRAFT  |
 | 15. [C-ID Alignment](/cid-alignment)             |  DRAFT  |
