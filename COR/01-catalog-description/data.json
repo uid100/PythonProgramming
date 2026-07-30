@@ -1,6 +1,5 @@
 {
   "title": "Catalog Description",
-  "text": [
+  "text":
     "Introduction to Python programming emphasizing problem solving, algorithm development, object-oriented programming, and software engineering fundamentals. Intended as a first college-level course for transfer-oriented Computer Science pathways, students develop computational thinking and structured program design skills. Students design, implement, test, debug, and document software using variables, control structures, functions, collections, file processing, exception handling, and classes. Emphasis is placed on algorithmic problem solving, maintainable software development, professional programming practices, and effective use of AI-assisted development tools."
-  ]
 }
