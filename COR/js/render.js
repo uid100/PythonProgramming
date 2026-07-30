@@ -206,7 +206,7 @@ async function initialize() {
         const manifest =
             await loadManifest();
 
-        for (const sectionName of manifest.sectionpath) {
+        for (const sectionName of manifest.section-paths) {
 
             if (DEBUG) {
                 console.log(`Loading section: ${sectionName}`);
