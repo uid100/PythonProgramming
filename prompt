@@ -1,1 +1,311 @@
-building a dynamic html doc
+building a dynamic html doc within my github repo.
+
+separate sections are built from reading json files from a sections/ directory.
+
+the render script unpacks them and constructs them as html
+
+the script reads a manifest file to locate the json data
+
+I want to move the individual json files to separate folders, for example, 
+
+~/COR/sections/textbook.json gets moved to ~/COR/textbook/data.json
+
+modify the manifest.json file to point to the correct files instead of the previous pattern.
+
+here is the file structure with the old, and some of the new data files.
+
+├── COR
+│   ├── cid
+│   │   └── data.json
+│   ├── course.json
+│   ├── css
+│   │   └── course-outline.css
+│   ├── index.html
+│   ├── js
+│   │   └── render.js
+│   ├── sections
+│   │   ├── catalog-description.json
+│   │   ├── cid.json
+│   │   ├── course-content.json
+│   │   ├── course-objectives.json
+│   │   ├── entrance-skills.json
+│   │   ├── exit-skills.json
+│   │   ├── hours.json
+│   │   ├── manifest.json
+│   │   ├── method-of-evaluation.json
+│   │   ├── method-of-instruction.json
+│   │   ├── minimum-instructional-facilities.json
+│   │   ├── out-of-class-assignments.json
+│   │   ├── prerequisite.json
+│   │   ├── recommended-preparation.json
+│   │   ├── special-materials-required.json
+│   │   ├── student-learning-outcomes.json
+│   │   └── textbook.json
+│   ├── template-data
+│   │   ├── CS_COR_Template.md
+│   │   └── Cuyamaca_CS_Python_COR_Draft.md
+│   └── textbook
+│       ├── README.md
+│       ├── README_template.md
+│       ├── data.json
+│       ├── json_footer
+│       └── json_header
+└── README.md
+
+the manifest file is here:
+
+{
+  "sections": [
+    "catalog-description",
+    "prerequisite",
+    "recommended-preparation",
+    "entrance-skills",
+    "course-content",
+    "course-objectives",
+    "method-of-evaluation",
+    "special-materials-required",
+    "minimum-instructional-facilities",
+    "method-of-instruction",
+    "out-of-class-assignments",
+    "textbook",
+    "exit-skills",
+    "student-learning-outcomes",
+    "cid"
+  ]
+}
+
+and the render script is here:
+
+const DEBUG =
+    new URLSearchParams(window.location.search).get("debug") === "true";
+
+async function loadManifest() {
+    const response = await fetch(
+        "sections/manifest.json"
+    );
+
+    if (!response.ok) {
+        throw new Error(
+            "Unable to load manifest."
+        );
+    }
+
+    return response.json();
+}
+
+async function loadCourse() {
+
+   const response =
+        await fetch("course.json");
+
+    if (DEBUG) {
+        console.log(
+            "Loading course title and ID"
+        );
+    }
+
+    if (!response.ok) {
+        throw new Error(
+            "Unable to load course.json"
+        );
+    }
+
+    return response.json();
+}
+
+async function loadHours() {
+
+    const response =
+        await fetch("sections/hours.json");
+
+    if (!response.ok) {
+        throw new Error(
+            "Unable to load hours.json"
+        );
+    }
+
+    return response.json();
+}
+
+async function loadSection(sectionName) {
+    const response = await fetch( section.path + "/data.json"
+    );
+
+    if (!response.ok) {
+        throw new Error(
+            `Unable to load ${sectionName}`
+        );
+    }
+
+    return response.json();
+}
+
+function renderCourseHeader(data) {
+
+    const container =
+        document.getElementById(
+            "course-header"
+        );
+
+    container.innerHTML = `
+        <header class="document-header">
+            <h1 class="college-name">
+                ${data.college}
+            </h1>
+
+            <h2 class="document-title">
+                ${data.document_title}
+            </h2>
+
+            <h3 class="course-title">
+                ${data.course_id} &mdash; ${data.course_title}
+            </h3>
+        </header>
+    `;
+}
+
+function buildList(items, numType = "1") {
+
+    const ol = document.createElement("ol");
+    ol.setAttribute("type", numType);
+
+    items.forEach(item => {
+
+        const li =
+            document.createElement("li");
+
+        if (typeof item === "string") {
+
+            li.textContent = item;
+
+        } else {
+
+            li.textContent = item.title;
+
+            if (item.children?.length) {
+                li.appendChild(
+                    buildList(item.children, "a")
+                );
+            }
+        }
+
+        ol.appendChild(li);
+    });
+
+    return ol;
+}
+
+function renderHours(data) {
+
+    const container =
+        document.getElementById("hours-total");
+
+    // total hours
+    container.innerHTML = `
+        <p class="hours-line">
+            <em>
+                Lecture Contact Hours: ${data.total.lecture.contactHours};
+                Homework Hours: ${data.total.lecture.homeworkHours};
+                Total Student Learning Hours: ${data.total.lecture.totalHours}
+            </em>
+            <br>
+            <em>
+                Laboratory Contact Hours: ${data.total.laboratory.contactHours};
+                Homework Hours: ${data.total.laboratory.homeworkHours};
+                Total Student Learning Hours: ${data.total.laboratory.totalHours}
+            </em>
+        </p>
+    `;
+
+    // weekly hours
+    const weeklyContainer =
+        document.getElementById("hours-weekly");
+
+    weeklyContainer.innerHTML = `
+        <p>
+            ${data.weekly.lecture},
+            ${data.weekly.laboratory},
+            ${data.weekly.units}
+        </p>
+    `; 
+}
+
+function renderSection(data) {
+
+    const section = document.createElement("section");
+    section.className = "section";
+
+    const heading = document.createElement("h4");
+    heading.className = "section-title";
+    heading.textContent = data.title;
+    section.appendChild(heading);
+
+    // handle 'text' format
+    if (data.text && typeof data.text === "string") {
+        const p = document.createElement("p");
+        p.textContent = data.text;
+        section.appendChild(p);
+    }
+
+    // handle multi-line blocks with 'textlines' format
+    if (data.textlines && Array.isArray(data.textlines)) {
+        const p = document.createElement("p");
+        p.className = "multiline-text";
+        p.innerHTML = data.textlines.join("<br>");
+        section.appendChild(p);
+    }
+
+    // handle ordered list format with 'items' array
+    if (data.items?.length) {
+        section.appendChild(
+            buildList(data.items)
+        );
+    }
+
+    return section;
+}
+
+async function initialize() {
+
+    const container =
+        document.getElementById("course-content");
+
+    try {
+        const courseData =
+            await loadCourse();
+        renderCourseHeader(courseData);
+
+        const hoursData =
+            await loadHours();
+        renderHours(hoursData);
+
+        const manifest =
+            await loadManifest();
+
+        for (const sectionName of manifest.sections) {
+
+            if (DEBUG) {
+                console.log(`Loading section: ${sectionName}`);
+            }
+            
+            const data =
+                await loadSection(sectionName);
+
+            container.appendChild(
+                renderSection(data)
+            );
+        }
+
+    } catch (error) {
+
+        console.error(error);
+
+        container.innerHTML =
+            "<p>Error loading course outline.</p>";
+    }
+}
+
+document.addEventListener(
+    "DOMContentLoaded",
+    initialize
+);
