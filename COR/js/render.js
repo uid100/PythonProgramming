@@ -1,5 +1,6 @@
 const DEBUG =
     new URLSearchParams(window.location.search).get("debug") === "true";
+console.log(`DEBUG mode: ${DEBUG}`);
 
 async function loadManifest() {
     const response = await fetch(
