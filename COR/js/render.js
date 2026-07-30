@@ -1,3 +1,6 @@
+const DEBUG =
+    new URLSearchParams(window.location.search).get("debug") === "true";
+
 async function loadManifest() {
     const response = await fetch(
         "sections/manifest.json"
@@ -16,6 +19,12 @@ async function loadCourse() {
 
    const response =
         await fetch("course.json");
+
+    if (DEBUG) {
+        console.log(
+            "Loading course title and ID"
+        );
+    }
 
     if (!response.ok) {
         throw new Error(
@@ -194,7 +203,10 @@ async function initialize() {
 
         for (const sectionName of manifest.sections) {
 
-            console.log(`Loading section: ${sectionName}`);
+            if (DEBUG) {
+                console.log(`Loading section: ${sectionName}`);
+            }
+            
             const data =
                 await loadSection(sectionName);
 
