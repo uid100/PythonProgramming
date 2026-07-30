@@ -18,8 +18,10 @@ ISBN-13 (978-1-961584-45-7)
   <pre id="json-content" style="white-space: pre-wrap;">{
     "title": "Texts and References",
     "text": [
-        "OER Commons: https://oercommons.org/courses/introduction-to-python-programming",
-        "Das, U., Lawson, A., Mayfield, C., & Norouzi, N. (2024). Introduction to Python programming. OpenStax. https://openstax.org/details/books/introduction-python-programming",
+        "OER Commons: https://oercommons.org/courses/introduction-to-python-programming<br>",
+        "Das, U., Lawson, A., Mayfield, C., & Norouzi, N. (2024).<br>",
+        "<strong>Introduction to Python programming</strong>.<br>",
+        "<em>OpenStax</em>. https://openstax.org/details/books/introduction-python-programming<br>",
         "ISBN ISBN-13 (978-1-961584-45-7)"
     ]
 }
