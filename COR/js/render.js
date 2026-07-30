@@ -39,7 +39,7 @@ async function loadCourse() {
 async function loadHours() {
 
     const response =
-        await fetch("hours/hours.json");
+        await fetch("00-hours/hours.json");
 
     if (!response.ok) {
         throw new Error(
