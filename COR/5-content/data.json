@@ -1,0 +1,28 @@
+{
+  "title": "Course Content -- FIX THIS LIST",
+  "items": [
+    "Introduction to Computer Science and Programming",
+    "Problem Solving and Algorithm Development",
+    "Programming Fundamentals",
+    {
+      "title": "Program Control Structures",
+      "children": ["Conditional Statements", "Loops"]
+    },
+    "Functions and Structured Decomposition",
+    "Software Engineering Fundamentals",
+    "Collections and Data Organization",
+    "Object-Oriented Programming",
+    "Files and Persistent Storage",
+    "Exception Handling and Program Reliability",
+    "Testing and Debugging",
+    "Libraries, Modules, and Reuse",
+    "AI-Assisted Software Development",
+    "Introduction to Computers, the Internet, and the Web",
+    "Short history of C-based languages",
+    "Introduction to C Programming",
+    {
+      "title": "Structured Program Development in C",
+      "children": ["Algorithms", "Pseudocode", "If", "While", "Operators"]
+    }
+  ]
+}

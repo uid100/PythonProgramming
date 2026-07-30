@@ -1,0 +1,9 @@
+{
+  "title": "Student Learning Outcomes",
+  "text": "Upon successful completion of this course, students will be able to: ",
+  "items": [
+    "Decompose problems and design program solutions using flowcharts, pseudocode, models, or other tools.",
+    "Properly code applications using the fundamental coding structures: sequence, selection, and loops.",
+    "Test and debug applications using debugging tools such as trace execution."
+  ]
+}

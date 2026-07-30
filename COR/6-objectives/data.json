@@ -1,0 +1,21 @@
+{
+  "title": "Course Objectives",
+  "text": "Students will be able to:",
+  "items": [
+    "Design, implement, test, and debug Python programs using fundamental programming constructs.",
+    "Analyze problems and develop appropriate algorithms to generate software solutions.",
+    "Apply structured decomposition techniques.",
+    "Utilize variables, expressions, data types, and assignment statements appropriately.",
+    "Implement sequence, selection, and repetition control structures.",
+    "Develop modular applications using functions and parameter passing.",
+    "Explain programming language paradigms and evolution.",
+    "Demonstrate understanding of scope, visibility, binding, and lifetime.",
+    "Design and implement object-oriented software using classes and inheritance.",
+    "Apply software engineering principles including documentation, readability, maintainability, and testing.",
+    "Create applications that utilize files, collections, and exception handling.",
+    "Evaluate, test, and debug software.",
+    "Analyze and validate AI-assisted code.",
+    "Develop complete software solutions that satisfy requirements.",
+    "Analyze programming problems and select appropriate algorithms, data structures, and implementation strategies."
+  ]
+}
