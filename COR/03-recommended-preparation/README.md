@@ -9,6 +9,7 @@
 
 - Edited to avoid references to numbered courses for clarity.
 
+- Edited for math rationale.
 
 
 
