@@ -1,19 +1,19 @@
 {
   "sections": [
-    "1-description",
+    "1-catalog-description",
     "2-prerequisite",
-    "3-preparation",
-    "4-entry",
-    "5-content",
-    "6-objectives",
-    "7-evaluation",
-    "8-materials",
-    "9-facilities",
-    "10-instruction",
-    "11-assignments",
-    "12-textbook",
+    "3-recommended-preparation",
+    "4-entrance-skills",
+    "5-course-content",
+    "6-course-objectives",
+    "7-methods-of-evaluation",
+    "8-special-materials-required",
+    "9-minimum-instructional-facilities",
+    "10-methods-of-instruction",
+    "11-out-of-class-assignments",
+    "12-texts-and-references",
     "13-exit-skills",
-    "14-outcomes",
-    "15-cid"
+    "14-student-learning-outcomes",
+    "15-cid-alignment"
   ]
 }
