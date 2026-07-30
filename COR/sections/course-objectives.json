@@ -1,5 +1,6 @@
 {
-    "title": "Students will be able to:",
+    "title": "Course Objectives",
+    "text": "Students will be able to:",
     "items": [
         "Design, implement, test, and debug Python programs using fundamental programming constructs.",
         "Analyze problems and develop appropriate algorithms to generate software solutions.",
