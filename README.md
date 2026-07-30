@@ -39,7 +39,7 @@ https://uid100.github.io/PythonProgramming/COR
 
 ### Reference:
 
-- [COMP 122 Descriptor](https://data-c-idsystem.org/descriptors/final/show/341)
+- [**C-ID COMP 122** Descriptor](https://data-c-idsystem.org/descriptors/final/show/341)
 - [COR: **CS 119** Pgm Design & Dev](/COR/reference-docs/cs119.pdf)
 - [COR: **CS 181** Intro C++](/COR/reference-docs/cs181.pdf)
 - [COR: **CS 182** Intro Java](/COR/reference-docs/cs182.pdf)
