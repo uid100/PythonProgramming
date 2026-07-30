@@ -30,6 +30,8 @@ https://uid100.github.io/PythonProgramming/COR
 | 15. [C-ID Alignment](/cid-alignment)                                       |  DRAFT  |
 | _DRAFT Integration and Assembly_                                           | Pending |
 
-_DRAFT_: Work-in-progress
-_REVIEW_: Draft - Ready for review
-_FINAL_: Reviewed - Releasable
+---
+
+* _DRAFT_: Work-in-progress
+* _REVIEW_: Draft - Ready for review
+* _FINAL_: Reviewed - Releasable
