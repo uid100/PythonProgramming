@@ -1,9 +1,10 @@
-# PythonProgramming - CS 250
+# CS 250 - PythonProgramming
 
 ## COR
 Course Outline and Curriculum for COMP-122 compliant Python Programming course
 
-## [_document link_](https://uid100.github.io/PythonProgramming/COR)
+## [_document link_](https://uid100.github.io/PythonProgramming/COR/index.html?debug)
+https://uid100.github.io/PythonProgramming/COR
 
 
 ### Data Sections
