@@ -1,19 +1,19 @@
 {
-  "sections": [
-    { "name": "catalog-description", "path": "1-description" },
-    { "name": "prerequisite", "path": "2-prerequisite" },
-    { "name": "recommended-preparation", "path": "3-preparation" },
-    { "name": "entrance-skills", "path": "4-entry" },
-    { "name": "course-content", "path": "5-content" },
-    { "name": "course-objectives", "path": "6-objectives" },
-    { "name": "method-of-evaluation", "path": "7-evaluation" },
-    { "name": "special-materials-required", "path": "8-materials" },
-    { "name": "minimum-instructional-facilities", "path": "9-facilities" },
-    { "name": "method-of-instruction", "path": "10-method-of-instruction" },
-    { "name": "out-of-class-assignments", "path": "11-assignments" },
-    { "name": "textbook", "path": "12-textbook" },
-    { "name": "exit-skills", "path": "13-exit-skills" },
-    { "name": "student-learning-outcomes", "path": "14-outcomes" },
-    { "name": "cid", "path": "15-cid" }
+  "section-path": [
+    "1-description",
+    "2-prerequisite",
+    "3-preparation",
+    "4-entry",
+    "5-content",
+    "6-objectives",
+    "7-evaluation",
+    "8-materials",
+    "9-facilities",
+    "10-instruction",
+    "11-assignments",
+    "12-textbook",
+    "13-exit-skills",
+    "14-outcomes",
+    "15-cid"
   ]
 }
