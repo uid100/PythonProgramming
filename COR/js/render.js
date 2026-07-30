@@ -4,7 +4,7 @@ console.log(`DEBUG mode: ${DEBUG}`);
 
 async function loadManifest() {
     const response = await fetch(
-        "sections/manifest.json"
+        "manifest.json"
     );
 
     if (!response.ok) {
@@ -50,14 +50,14 @@ async function loadHours() {
     return response.json();
 }
 
-async function loadSection(sectionName) {
+async function loadSection(path) {
     const response = await fetch(
-        `sections/${sectionName}.json`
+        `${path}/data.json`
     );
 
     if (!response.ok) {
         throw new Error(
-            `Unable to load ${sectionName}`
+            `Unable to load ${path}`
         );
     }
 
