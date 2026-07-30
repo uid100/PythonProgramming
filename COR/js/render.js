@@ -39,7 +39,7 @@ async function loadCourse() {
 async function loadHours() {
 
     const response =
-        await fetch("sections/hours.json");
+        await fetch("hours.json");
 
     if (!response.ok) {
         throw new Error(
@@ -206,7 +206,7 @@ async function initialize() {
         const manifest =
             await loadManifest();
 
-        for (const sectionName of manifest.sections) {
+        for (const sectionName of manifest.sectionpath) {
 
             if (DEBUG) {
                 console.log(`Loading section: ${sectionName}`);
