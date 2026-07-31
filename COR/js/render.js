@@ -171,11 +171,11 @@ function renderSection(data) {
         section.appendChild(p);
     }
 
-    // handle multi-line blocks with 'textlines' format
-    if (data.textlines && Array.isArray(data.textlines)) {
+    // handle multi-line blocks with 'paragraphs' format
+    if (data.paragraphs && Array.isArray(data.paragraphs)) {
         const p = document.createElement("p");
         p.className = "multiline-text";
-        p.innerHTML = data.textlines.join("<br>");
+        p.innerHTML = data.paragraphs.join("<br>");
         section.appendChild(p);
     }
 
