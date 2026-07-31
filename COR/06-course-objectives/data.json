@@ -3,16 +3,15 @@
   "text": "Students will be able to:",
   "items": [
     "Design, implement, test, and debug Python programs using fundamental programming constructs.",
-    "Analyze programming problems and select appropriate algorithms, data structures, and implementation strategies to develop software solutions.",
+    "Analyze programming problems and select appropriate logical approaches and data types to develop software solutions.",
     "Apply problem decomposition and structured design techniques.",
-    "Utilize variables, expressions, data types, and assignment statements appropriately.",
-    "Implement sequence, selection, and repetition control structures.",
+    "Apply variables, expressions, data types, and assignment statements to represent and manipulate information within software applications.",
+    "Design algorithms and implement programs using sequence, selection, and repetition control structures.",
     "Develop modular applications using functions and parameter passing.",
-    "Apply scope and variable lifetime concepts when designing and debugging programs.",
+    "Apply scope, visibility, and variable lifetime concepts when designing, testing, and debugging programs.",
     "Design and implement object-oriented programs using classes, objects, attributes, and methods.",
     "Apply software engineering principles including documentation, readability, maintainability, and testing.",
-    "Create applications that utilize collections, persistent data sources, and exception handling.",
-    "Evaluate, test, and validate AI-assisted code solutions.",
-    "Develop complete software solutions that satisfy stated requirements."
+    "Create applications that utilize collections, file input/output, and exception handling.",
+    "Develop, test, and document software solutions that satisfy stated requirements."
   ]
 }
