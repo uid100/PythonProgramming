@@ -13,7 +13,8 @@
 
 31-Jul-2026: (DS)
 
-- format is multi-paragraph. Is this acceptable?
+- format is multi-paragraph. Is this acceptable? XXX
+- modified back to single paragraph to match sample documents.
 
 
 For comparison, 
