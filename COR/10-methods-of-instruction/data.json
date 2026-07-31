@@ -1,4 +1,9 @@
 {
   "title": "Method of Instruction",
-  "items": ["Lecture and demonstration", "Hands-on practice", "Lab assignments"]
+  "items": 
+  [
+    "Lecture and demonstration", 
+    "Hands-on programming exercises", 
+    "Lab assignments and activities"
+  ]
 }

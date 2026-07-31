@@ -22,7 +22,7 @@ https://uid100.github.io/PythonProgramming/COR
 | 7. [method-of-evaluation](/COR/07-methods-of-evaluation)                        | REVIEW  |
 | 8. [special-materials-required](/COR/08-special-materials-required)             | REVIEW  |
 | 9. [minimum-instructional-facilities](/COR/09-minimum-instructional-facilities) | REVIEW  |
-| 10. [methods-of-instruction](/COR/10-methods-of-instruction)                    | REVIEW  |
+| 10. [methods-of-instruction](/COR/10-methods-of-instruction)                    |         |
 | 11. [out-of-class-assignments](/COR/11-out-of-class-assignments)                | REVIEW  |
 | 12. [Textbook](/COR/12-texts-and-references)                                    | REVIEW  |
 | 13. [exit-skills](/COR/13-exit-skills)                                          |         |
