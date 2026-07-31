@@ -3,16 +3,12 @@
   "text": "Upon successful completion of this course, students will be able to:",
   "items": [
     "Design software solutions using algorithmic problem-solving methodologies.",
-    "Develop, test, and debug Python programs.",
-    "Apply structured programming concepts effectively.",
-    "Utilize functions and modular programming techniques.",
-    "Implement object-oriented programming solutions.",
-    "Work with collections and file processing techniques.",
-    "Utilize exception handling.",
-    "Apply software engineering fundamentals.",
-    "Evaluate program correctness, efficiency, and maintainability.",
-    "Analyze and validate AI-assisted programming solutions.",
-    "Develop complete software applications.",
-    "Analyze problems, develop algorithms, and implement software solutions using appropriate programming methodologies."
+    "Develop, test, debug, and document Python programs.",
+    "Apply structured and modular programming techniques.",
+    "Design and implement object-oriented software solutions.",
+    "Utilize Python collection data types, file input/output, and exception handling to solve programming problems.",
+    "Apply software engineering principles including readability, maintainability, testing, and documentation.",
+    "Evaluate software solutions for correctness, reliability, and maintainability.",
+    "Develop complete software applications that satisfy stated requirements."
   ]
 }
