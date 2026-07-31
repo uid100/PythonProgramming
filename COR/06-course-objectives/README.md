@@ -17,3 +17,6 @@ scope and lifetime
 testing/debugging
 file I/O and exception handling
 
+-------------
+
+These objectives were collected and assembled from representative documents, modified from recent experience, and critically reviewed and edited to ensure COMP-122 alignment.
