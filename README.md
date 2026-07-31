@@ -18,8 +18,8 @@ https://uid100.github.io/PythonProgramming/COR
 | 3. [recommended-preparation](/COR/03-recommended-preparation)                   | REVIEW  |
 | 4. [entrance-skills](/COR/04-entrance-skills)                                   | REVIEW  |
 | 5. [course-content](/COR/05-course-content)                                     | REVIEW  |
-| 6. [course-objectives](/COR/06-course-objectives)                               |         |
-| 7. [method-of-evaluation](/COR/07-methods-of-evaluation)                        |         |
+| 6. [course-objectives](/COR/06-course-objectives)                               | REVIEW  |
+| 7. [method-of-evaluation](/COR/07-methods-of-evaluation)                        | REVIEW  |
 | 8. [special-materials-required](/COR/08-special-materials-required)             | REVIEW  |
 | 9. [minimum-instructional-facilities](/COR/09-minimum-instructional-facilities) | REVIEW  |
 | 10. [methods-of-instruction](/COR/10-methods-of-instruction)                    | REVIEW  |
