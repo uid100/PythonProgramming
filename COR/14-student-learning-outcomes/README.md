@@ -1,4 +1,4 @@
-# Student Learning Objectives (SLOs)
+# Student Learning Outcomes (SLOs)
 
 requirements:
 * observable
