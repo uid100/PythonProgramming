@@ -12,3 +12,12 @@ ISBN-13 (978-1-961584-45-7)
 
  - continue to assess and define criteria
  - research moving individual sections to Canvas
+
+
+### revised
+31-Jul-2026: DS
+
+fixed according to template.
+
+- reformatted to match APA reference
+- added text from Grossmont COR as optional
