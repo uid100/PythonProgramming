@@ -20,7 +20,7 @@ https://uid100.github.io/PythonProgramming/COR
 | 5. [course-content](/COR/05-course-content)                                     | REVIEW  |
 | 6. [course-objectives](/COR/06-course-objectives)                               |         |
 | 7. [method-of-evaluation](/COR/07-methods-of-evaluation)                        |         |
-| 8. [special-materials-required](/COR/08-special-materials-required)             |         |
+| 8. [special-materials-required](/COR/08-special-materials-required)             | REVIEW  |
 | 9. [minimum-instructional-facilities](/COR/09-minimum-instructional-facilities) | REVIEW  |
 | 10. [method-of-instruction](/COR/10-method-of-instruction)                      | REVIEW  |
 | 11. [out-of-class-assignments](/COR/11-out-of-class-assignments)                |         |
