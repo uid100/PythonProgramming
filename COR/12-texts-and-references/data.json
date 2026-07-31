@@ -1,7 +1,7 @@
 {
     "title": "Texts and References",
     "items": [
-        "Required (representative example. OER): Das, U., Lawson, A., Mayfield, C., & Norouzi, N. (2024). Introduction to Python programming. https://openstax.org/details/books/introduction-python-programming",
-        "Supplemental (Optional): Lutz, Mark.  Learning Python, 5th Edition, Sebastopol, CA: O’Reilly Media, 2013."
+        "<b>Required (representative example. OER):</b> Das, U., Lawson, A., Mayfield, C., & Norouzi, N. (2024). Introduction to Python programming. https://openstax.org/details/books/introduction-python-programming",
+        "<b>Supplemental (Optional):</b> Lutz, M. (2013). Learning Python (5th ed.). O'Reilly Media."
     ]
 }
