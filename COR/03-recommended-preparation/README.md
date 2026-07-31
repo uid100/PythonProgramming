@@ -11,6 +11,9 @@
 
 - Edited for math rationale.
 
+31-Jul-2026: (DS)
+
+- format is multi-paragraph. Is this acceptable?
 
 
 For comparison, 
