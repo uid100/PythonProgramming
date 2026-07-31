@@ -2,6 +2,25 @@ const DEBUG =
     new URLSearchParams(window.location.search).get("debug") === "true";
 console.log(`DEBUG mode: ${DEBUG}`);
 
+
+const COR_CONFIG = {
+    draft: true
+};
+
+console.log(`DEBUG mode: ${DEBUG}`);
+console.log(`DRAFT mode: ${COR_CONFIG.draft}`);
+
+function getDraftTimestamp() {
+    const d = new Date();
+
+    const months = [
+        "JAN","FEB","MAR","APR","MAY","JUN",
+        "JUL","AUG","SEP","OCT","NOV","DEC"
+    ];
+
+    return `DRAFT: ${String(d.getDate()).padStart(2, "0")}-${months[d.getMonth()]}-${d.getFullYear()}-${String(d.getHours()).padStart(2, "0")}${String(d.getMinutes()).padStart(2, "0")}`;
+}
+
 async function loadManifest() {
     const response = await fetch(
         "manifest.json"
@@ -191,6 +210,11 @@ function renderSection(data) {
 
 async function initialize() {
 
+    document.title = COR_CONFIG.draft
+        ? "COR - DRAFT"
+        : "COR";
+
+
     const container =
         document.getElementById("course-content");
 
@@ -218,6 +242,13 @@ async function initialize() {
             container.appendChild(
                 renderSection(data)
             );
+        }
+
+        if (COR_CONFIG.draft) {
+            const footer = document.createElement("footer");
+            footer.className = "draft-footer";
+            footer.textContent = getDraftTimestamp();
+            document.body.appendChild(footer);
         }
 
     } catch (error) {
