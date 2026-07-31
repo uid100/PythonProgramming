@@ -100,7 +100,7 @@ function buildList(items, numType = "1") {
 
         if (typeof item === "string") {
 
-            li.textContent = item;
+            li.innerHTML = item;
 
         } else {
 
@@ -167,7 +167,7 @@ function renderSection(data) {
     // handle 'text' format
     if (data.text && typeof data.text === "string") {
         const p = document.createElement("p");
-        p.textContent = data.text;
+        p.innerHTML = data.text;
         section.appendChild(p);
     }
 
