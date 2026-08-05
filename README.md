@@ -43,4 +43,6 @@ https://uid100.github.io/PythonProgramming/COR
 - [COR: **CS 119** Pgm Design & Dev](/COR/reference-docs/cs119.pdf)
 - [COR: **CS 181** Intro C++](/COR/reference-docs/cs181.pdf)
 - [COR: **CS 182** Intro Java](/COR/reference-docs/cs182.pdf)
-- [COR: (Grossmont) **CSIS 250** Intro Python](/COR/reference-docs/250-csis-final-2018-05-18.docx)
+- [COR: (Grossmont) **CSIS 250** Intro Python (2025 -- PDF)](COR/reference-docs/CSIS-250-GC_%20Introduction%20to%20Python%20Programming.pdf)
+- [COR: (Grossmont) **CSIS 250** Intro Python (2018 -- .doc)](/COR/reference-docs/250-csis-final-2018-05-18.docx)
+
