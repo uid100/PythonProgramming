@@ -51,10 +51,10 @@ https://uid100.github.io/PythonProgramming/COR
 
 ### SDCCD
 #### SD Mesa
-- [COR: **CSIT 179** Intro to Python Programming](COR/reference-docs/Python_Course_Outline_CISC-179_COR.pdf)
+- [COR: (SD Mesa) **CSIT 179** Intro to Python Programming](COR/reference-docs/Python_Course_Outline_CISC-179_COR.pdf)
 
 ### _Palomar College District_
 #### Palomar College
-- [COR: **CSIT 175** Intro to Python Programming](COR/reference-docs/Python_Course_Outline_CSIT175.pdf)
+- [COR: (Palomar) **CSIT 175** Intro to Python Programming](COR/reference-docs/Python_Course_Outline_CSIT175.pdf)
 
 
