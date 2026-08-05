@@ -48,7 +48,6 @@ https://uid100.github.io/PythonProgramming/COR
 
 #### Grossmont College
 - [COR: (Grossmont) **CSIS 250** Intro Python (2025 -- PDF)](COR/reference-docs/CSIS-250-GC_%20Introduction%20to%20Python%20Programming.pdf)
-- [COR: (Grossmont) **CSIS 250** Intro Python (2018 -- .doc)](/COR/reference-docs/250-csis-final-2018-05-18.docx)
 
 ### SDCCD
 #### SD Mesa
