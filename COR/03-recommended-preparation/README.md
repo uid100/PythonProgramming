@@ -24,3 +24,9 @@ For comparison,
 - CS181 Intro C++: _C_ grade or higher or _Pass_ in CS 119 or equivalent, and intermediate algebra
 - CS182 Intro Java: Appropriate placement or intermediate algebra
 
+
+Edit notes:
+ - add CS119 or other as recommended prep:
+
+_“C” grade or higher or “Pass” in CS 119
+or equivalent or experience programming in C++ or Java_
