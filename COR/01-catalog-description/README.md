@@ -22,3 +22,7 @@ For brevity, the mention of...
 --- 
 
 Removed file handling from description and edited for readability.
+
+---
+
+Add to the transfer content to add "foundational course for AI program track"
