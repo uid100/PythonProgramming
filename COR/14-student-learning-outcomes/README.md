@@ -17,3 +17,5 @@ requirements:
 3. **Test and debug applications using debugging tools such as trace execution.**
    - Aligns well with best practices and overall comp.sci pathways.
 
+
+_ rewrite / revise SLO1 to downplay/remove the pseudocode and artifacts.. make it measurable but generic._
