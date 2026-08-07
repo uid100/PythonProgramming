@@ -1,4 +1,7 @@
 {
   "title": "Recommended Preparation",
-  "text": "Intermediate algebra or equivalent proficiency. Students should be able to apply logical reasoning and problem-solving strategies to analyze and solve structured problems."
+  "paragraphs": [
+    "Intermediate algebra or equivalent proficiency. Students should be able to apply logical reasoning and problem-solving strategies to analyze and solve structured problems.",
+    "Familiarity with “C” grade or higher or “Pass” in CS 119 or equivalent or experience programming in C++ or Java."
+  ]
 }
