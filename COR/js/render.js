@@ -4,7 +4,7 @@ console.log(`DEBUG mode: ${DEBUG}`);
 
 
 const COR_CONFIG = {
-    draft: true
+    draft: false
 };
 
 console.log(`DEBUG mode: ${DEBUG}`);

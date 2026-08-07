@@ -11,7 +11,6 @@
     "Apply scope, visibility, and variable lifetime concepts when designing, testing, and debugging programs.",
     "Design and implement object-oriented programs using classes, objects, attributes, and methods.",
     "Apply software engineering principles including documentation, readability, maintainability, and testing.",
-    "Create applications that utilize Python collection data types, file input/output, and exception handling.",
-    "Develop, test, and document software solutions that satisfy stated requirements."
+    "Create applications that utilize Python collection data types, file input/output, and exception handling."
   ]
 }
