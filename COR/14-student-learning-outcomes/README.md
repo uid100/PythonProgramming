@@ -8,7 +8,7 @@ requirements:
 * few in number
 
 
-1. **Decompose problems and design program solutions using flowcharts, pseudocode, models, or other tools.**
+1. **Decompose problems and design program solutions using representational design artifacts such as flowcharts and class model diagrams.**
    - Measures computational thinking and design.
    - aligns with structured design and COMP-122 expectations
 2. **Properly code applications using the fundamental coding structures: sequence, selection, and loops.**
