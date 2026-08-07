@@ -26,9 +26,9 @@ https://uid100.github.io/PythonProgramming/COR
 | 11. [out-of-class-assignments](/COR/11-out-of-class-assignments)                | _FINAL_ |
 | 12. [Textbook](/COR/12-texts-and-references)                                    | _FINAL_ |
 | 13. [exit-skills](/COR/13-exit-skills)                                          | _FINAL_ |
-| 14. [Student Learning Outcomes](/COR/14-student-learning-outcomes)              | REVIEW |
-| 15. [C-ID Alignment](/COR/15-cid-alignment)                                     | REVIEW |
-| _DRAFT Integration and Assembly_                                                | _Pending_ |
+| 14. [Student Learning Outcomes](/COR/14-student-learning-outcomes)              | _FINAL_ |
+| 15. [C-ID Alignment](/COR/15-cid-alignment)                                     | _FINAL_ |
+| _DRAFT Integration and Assembly_                                     | _Ready for Review_ |
 
 ---
 
