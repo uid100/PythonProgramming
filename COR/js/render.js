@@ -4,7 +4,7 @@ console.log(`DEBUG mode: ${DEBUG}`);
 
 
 const COR_CONFIG = {
-    draft: false
+    draft: true
 };
 
 console.log(`DEBUG mode: ${DEBUG}`);
@@ -13,12 +13,19 @@ console.log(`DRAFT mode: ${COR_CONFIG.draft}`);
 function getDraftTimestamp() {
     const d = new Date();
 
-    const months = [
-        "JAN","FEB","MAR","APR","MAY","JUN",
-        "JUL","AUG","SEP","OCT","NOV","DEC"
-    ];
+    // const months = [
+    //     "JAN","FEB","MAR","APR","MAY","JUN",
+    //     "JUL","AUG","SEP","OCT","NOV","DEC"
+    // ];
+    // return `DRAFT: ${String(d.getDate()).padStart(2, "0")}-${months[d.getMonth()]}-${d.getFullYear()}-${String(d.getHours()).padStart(2, "0")}${String(d.getMinutes()).padStart(2, "0")}`;
 
-    return `DRAFT: ${String(d.getDate()).padStart(2, "0")}-${months[d.getMonth()]}-${d.getFullYear()}-${String(d.getHours()).padStart(2, "0")}${String(d.getMinutes()).padStart(2, "0")}`;
+    const yyyy = d.getFullYear();
+    const mm = String(d.getMonth() + 1).padStart(2, "0");
+    const dd = String(d.getDate()).padStart(2, "0");
+    const hh = String(d.getHours()).padStart(2, "0");
+    const min = String(d.getMinutes()).padStart(2, "0");
+
+    return `${yyyy}${mm}${dd}${hh}${min}`;
 }
 
 async function loadManifest() {
@@ -211,7 +218,7 @@ function renderSection(data) {
 async function initialize() {
 
     document.title = COR_CONFIG.draft
-        ? "COR - DRAFT"
+        ? `COR: ${getDraftTimestamp()}`
         : "COR";
 
 
@@ -244,12 +251,12 @@ async function initialize() {
             );
         }
 
-        if (COR_CONFIG.draft) {
-            const footer = document.createElement("footer");
-            footer.className = "draft-footer";
-            footer.textContent = getDraftTimestamp();
-            document.body.appendChild(footer);
-        }
+        // if (COR_CONFIG.draft) {
+        //     const footer = document.createElement("footer");
+        //     footer.className = "draft-footer";
+        //     footer.textContent = getDraftTimestamp();
+        //     document.body.appendChild(footer);
+        // }
 
     } catch (error) {
 
