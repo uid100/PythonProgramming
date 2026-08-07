@@ -13,8 +13,8 @@
   },
 
   "weekly": {
-    "lecture": "3 hours lecture",
-    "laboratory": "3 hours laboratory",
+    "lecture": "3.5 hours lecture",
+    "laboratory": "3.5 hours laboratory",
     "units": "4 units"
   }
 }
