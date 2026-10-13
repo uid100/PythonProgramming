@@ -212,6 +212,37 @@ function renderSection(data) {
         );
     }
 
+    if (data.subsections?.length) {
+        data.subsections.forEach(sub => {
+
+            const subheading =
+                document.createElement("h5");
+
+            subheading.className =
+                "section-subtitle";
+
+            subheading.textContent =
+                sub.title;
+
+            section.appendChild(
+                subheading
+            );
+
+            if (sub.text) {
+                const p =
+                    document.createElement("p");
+                p.innerHTML = sub.text;
+                section.appendChild(p);
+            }
+
+            if (sub.items?.length) {
+                section.appendChild(
+                    buildList(sub.items)
+                );
+            }
+        });
+    }
+
     return section;
 }
 
