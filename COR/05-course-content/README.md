@@ -218,3 +218,8 @@ updated following critical review and mapping between final objectives and conte
 | C17 | O9, O11 |
 | C18 | best-practice and dept. goals |
 
+
+Edit 13-Oct-2026: (DS)
+curriculum review notes:
+
+subdivide and condense to "lecture" and "lab" content:
