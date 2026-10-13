@@ -1,0 +1,15 @@
+{
+  "title": "Lab Content",
+  "items": [
+    "Design algorithms using pseudocode, flowcharts, and related design tools",
+    "Create and manage projects using a software development environment",
+    "Develop programs using variables, expressions, and input/output operations",
+    "Implement solutions using sequence, selection, and iteration structures",
+    "Develop modular programs using functions and parameter passing",
+    "Process text data and manipulate collections",
+    "Implement file processing and data persistence solutions",
+    "Develop applications using classes and objects",
+    "Apply testing, debugging, and documentation techniques",
+    "Evaluate and appropriately utilize AI-assisted programming tools"
+  ]
+}

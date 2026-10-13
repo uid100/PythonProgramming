@@ -1,0 +1,19 @@
+{
+  "title": "Lecture Content",
+  "items": [
+    "Computational thinking, problem solving, and algorithm design",
+    "Software development environments",
+    "Variables, data types, assignment statements, expressions, and operators",
+    "Input/output operations and sequential program execution",
+    "Selection structures",
+    "Iteration structures",
+    "Functions, parameter passing, modular program design, and variable scope",
+    "Strings and text processing",
+    "Collections and fundamental data structures",
+    "File input/output and data persistence",
+    "Exception handling and program robustness",
+    "Introduction to object-oriented programming using classes, objects, attributes, and methods",
+    "Testing, debugging, documentation, and software engineering practices",
+    "Evaluation and responsible use of AI-assisted programming tools"
+  ]
+}
