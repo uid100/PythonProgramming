@@ -216,7 +216,7 @@ function renderSection(data) {
         data.subsections.forEach(sub => {
 
             const subheading =
-                document.createElement("h5");
+                document.createElement("h4");
 
             subheading.className =
                 "section-subtitle";
