@@ -52,3 +52,8 @@ for entry-level Python course emphasizing Computer Science pathways and tranferr
 |  |  |  | ✓ | Solve polynomial equations and systems of linear equations. |
 |  |  |  | ✓ | Find the general terms of sequences. |
 |  |  |  | ✓ | Understand simple mathematical proofs. |
+
+13-Oct-2026:
+Remove section from _manifest_. Content may be used for syllabus, but
+not relevant to course outline and inconsistent for courses without 
+prerequisites.
