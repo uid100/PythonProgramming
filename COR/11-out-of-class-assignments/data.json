@@ -6,15 +6,14 @@
       "title": "Reading",
       "items": [
         "Reading and reviewing assigned textbook chapters and instructional materials.",
-        "Review sample Python code examples."
+        "Review Python code examples."
       ]
     },
     {
       "title": "Writing",
       "items": [
         "Develop algorithms, flowcharts, and pseudocode to solve programming problems.",
-        "Create program design documents, code annotations, and written responses related to programming concepts.",
-        "Document testing results, debugging processes, and program evaluations."
+        "Create program design documents, code annotations, and written responses related to programming concepts."
       ]
     },
     {
