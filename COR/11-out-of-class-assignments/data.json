@@ -1,23 +1,19 @@
 {
   "title": "Out-of-Class Assignments",
-  "text": [
-"<h4>Reading</h4>",
-"<ul>",
-"  <li>Read assigned textbook chapters, articles, online documentation, and instructor-provided materials covering Python programming concepts.</li>",
-"  <li>Review and analyze sample Python programs and code examples.</li>",
-"</ul>",
-"<h4>Writing</h4>",
-"<ul>",
-"  <li>Develop algorithms, flowcharts, and pseudocode to solve programming problems.</li>",
-"  <li>Create program design documents, code annotations, and written responses related to programming concepts.</li>",
-"  <li>Document testing results, debugging processes, and program evaluations.</li>",
-"</ul>",
-"<h4>Other</h4>",
-"<ul>",
-"  <li>Design, code, test, and debug Python programs.</li>",
-"  <li>Complete assigned coding exercises, programming projects, and practice activities.</li>",
-"  <li>Analyze, test, debug, and evaluate program correctness and functionality.</li>",
-"  <li>Analyze and validate software solutions from multiple sources, including AI-assisted solutions.</li>",
-"</ul>"
+  "text": "<h4>Reading</h4>",
+  "items": [
+    "Read assigned textbook chapters, articles, online documentation, and instructor-provided materials covering Python programming concepts.",
+    "Review and analyze sample Python programs and code examples."
+  ],
+  "writing": [
+    "Develop algorithms, flowcharts, and pseudocode to solve programming problems.",
+    "Create program design documents, code annotations, and written responses related to programming concepts.",
+    "Document testing results, debugging processes, and program evaluations."
+  ],
+  "other": [
+    "Design, code, test, and debug Python programs.",
+    "Complete assigned coding exercises, programming projects, and practice activities.",
+    "Analyze, test, debug, and evaluate program correctness and functionality.",
+    "Analyze and validate software solutions from multiple sources, including AI-assisted solutions."
   ]
 }
