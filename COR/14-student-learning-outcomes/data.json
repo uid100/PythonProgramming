@@ -2,8 +2,8 @@
   "title": "Student Learning Outcomes",
   "text": "Upon successful completion of this course, students will be able to: ",
   "items": [
-    "Decompose problems and design program solutions using tools such as flowcharts, class models.",
-    "Properly code applications using the fundamental coding structures: sequence, selection, and loops.",
-    "Test and debug applications using debugging tools such as trace execution."
+    "Decompose problems and design program solutions using design tools such as flowcharts and class models.",
+    "Develop applications using the fundamental coding structures of sequence, selection, and iteration.",
+    "Test and debug applications using trace execution and debugging tools."
   ]
 }
