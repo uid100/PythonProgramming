@@ -81,6 +81,7 @@ https://uid100.github.io/PythonProgramming/COR
 ### 16 weeks
 
 |	16-week	|	module	|	chap.	|
+|---|---|---|
 |	1	|	M1	|	Ch1, Ch2	|
 |	2	|	M2	|	Ch3, Ch4	|
 |	3	|	M3	|	Ch5	|
@@ -99,6 +100,7 @@ https://uid100.github.io/PythonProgramming/COR
 ### 8 weeks
 
 |	8-week	|	module	|	chap.	|
+|---|---|---|
 |	1	|	M1, M2	|	Ch1, Ch2, Ch3, Ch4	|
 |	2	|	M3, M4	|	Ch5, Ch6, Ch7	|
 |	3	|	(M4), M5	|	Ch8	|
