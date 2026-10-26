@@ -1,0 +1,497 @@
+{
+  "college": "Cuyamaca",
+  "instructor": "dan-sullivan",
+  "courseNumber": "CS 250",
+  "courseTitle": "Introduction to Python Programming",
+  "units": 4,
+  "coverImage": "/images/programmer.jpg",
+  "description": [
+    "(catalog:)\nIntroduction to Python programming with an emphasis on problem solving, algorithm development, object-oriented programming, and software engineering fundamentals. Intended as a first college-level course for transfer-oriented Computer Science pathways and as a foundational course for the AI program track. Students develop computational thinking and structured program design skills. Students design, implement, test, debug, and document software solutions using variables, control structures, functions, collections, exception handling, and classes. Emphasis is placed on algorithmic problem solving and professional programming practices. Laboratory instruction includes program development and testing."
+  ],
+  "prerequisites": "None",
+  "defaultSection": "Fa2027",
+  "contact": {
+    "instructorEmail": "daniel.sullivan@gcccd.edu",
+    "officeHours": {
+      "location": "Remote",
+      "schedule": "",
+      "label": "office hours: tbd",
+      "zoomLink": ""
+    },
+    "discordLink": {
+      "label": "Discord: Code Bytes",
+      "url": "https://discord.gg/MpHjV4qgxZ"
+    },
+    "about": "preferred method of contact is via email. I will respond to emails within 24 hours on weekdays. Published office hours are times when I will be available on Zoom for real-time communication. If you need to meet at a different time, please email me to schedule an appointment.\nDiscord channels are also available for anytime communication with me and your classmates."
+  },
+  "outcomes": "outcomes/clo.json",
+  "objectives": "outcomes/slo.json",
+  "textbook": "materials/textbook.json",
+  "content": {
+    "modules": {
+      "01": { "title": "Module 1 - Applications and Sequential Data Processing",
+        "COR Alignment": [
+            "Computational thinking",
+            "Problem solving",
+            "Algorithm design",
+            "Software development environments",
+            "Variables",
+            "Data types",
+            "Expressions",
+            "Input/output",
+            "Sequential execution"
+        ],
+        "OER Reading": [
+            "Chapter 1: Statements",
+            "Chapter 2: Expressions"
+        ],
+        "Topics": [
+            "Course introduction",
+            "Python environment / IDE",
+            "Problem-solving process",
+            "Algorithms",
+            "Flowcharts",
+            "Pseudocode",
+            "Variables",
+            "Data types",
+            "Assignment statements",
+            "Expressions",
+            "Keyboard input",
+            "Program output"
+        ],
+        "Deliverables": [
+            "Algorithm design exercises",
+            "First Python programs",
+            "Input/process/output assignments"
+        ],
+        "pages": {
+          "implementation-note": {
+            "1": "use *resource* for absolute (external) links",
+            "2": "use *source* for course-repo relative (internal) links, courseBase + source"
+          },
+          "announce1": { "title": "Announcement: Welcome to CSIT 175!", "type": "announcement", "resource": "https://uid100.github.io/palomar-csit175/content/01/01.0.0.welcome.html" },
+          "overview": {  "title": "Module Overview", "type": "content", "source": "content/01/overview01.html"},
+          "install-python": {  "title": "Installing Python", "type": "content", "resource": "https://uid100.github.io/py/content/install-python.html"},
+          "chapter1": {  "title": "An Introduction to Python Programming", "type": "content", "resource": "https://uid100.github.io/py/notes/murach2d/ch1.html"},
+          "chapter2": { "title": "Writing your first programs","type": "content", "resource": "https://uid100.github.io/py/notes/murach2d/ch2.html"},
+          "ack": { "title": "Syllabus Acknowledgement","type": "content", "source": "content/01/ack.html"},
+          "disc-intro": { "title": "Discussion: Sequential Processing","type": "content", "source": "content/01/disc-intro.html"},
+          "hello-world": {"title": "Hello, World!","type": "content", "resource": "https://uid100.github.io/py/content/hello-world.html" },
+          "variables": {"title": "Variables: An Introduction","type": "content", "resource": "https://uid100.github.io/py/content/variables.html" },
+          "end": { "title": "End of Module 1: Sequential Processing", "type": "content", "source": "/content/end-module.html"}
+        },
+        "lab": {
+          "title": "Lab #1 - Sequential Processing",
+          "taskListUrl": "https://uid100.github.io/py/01-sequential/ex/task-list.json",
+          "fragmentsBase": "https://uid100.github.io/py/01-sequential/ex/"
+        }
+      },
+      "02": { "title": "Module 2 - Control Structures: Conditional Execution",
+        "COR Alignment": [
+            "Selection structures"
+        ],
+        "OER Reading": [
+            "Chapter 3: Objects",
+            "Chapter 4: Decisions"
+        ],
+        "Topics": [
+            "Boolean expressions",
+            "Relational operators",
+            "Logical operators",
+            "if",
+            "if-else",
+            "if-elif-else",
+            "Nested decisions",
+            "Input validation"
+        ],
+        "Deliverables": [
+            "Decision-based applications",
+            "Flowchart exercises"
+        ],
+        "pages": {
+          "announce2": { "title": "week 2", "type": "announcement", "resource": "" },
+          "overview": { "title": "Making Decisions","type": "content", "source": "/content/02/overview02.html"},
+          "chapter3": { "title": "Boolean Logic", "type": "content", "resource": "https://uid100.github.io/py/notes/murach2d/ch3.html"},
+          "interpreter": { "title": "The Python Interpreter", "type": "content", "resource": "https://uid100.github.io/py/content/python-interpreter.html" },
+          "directive": { "title": "The Interpreter Directive", "type": "content", "resource": "https://uid100.github.io/py/content/interpreter-directive.html" },
+          "test-data": { "title": "Creating Test Data", "type": "content", "resource": "https://uid100.github.io/py/02-conditional/test-data.html" },
+          "demo-code": { "title": "Demo Code Examples", "type": "content", "resource": "https://uid100.github.io/py/02-conditional/demo-code-decisions.html"},
+          "end": { "title": "End of Module 2: Conditional Processing", "type": "content", "source": "/content/end-module.html"}
+        },
+        "lab": {
+          "title": "Lab #2 - Conditional Processing",
+          "taskListUrl": "https://uid100.github.io/py/02-conditional/ex/task-list.json",
+          "fragmentsBase": "https://uid100.github.io/py/02-conditional/ex/"
+        }
+      },
+      "03": { "title": "Module 3 - Control Structures: Iteration",
+        "COR Alignment": [
+            "Repetition structures"
+        ],
+        "OER Reading": [
+            "Chapter 5: Loops"
+        ],
+        "Topics": [
+            "while loops",
+            "for loops",
+            "Accumuators",
+            "Counters",
+            "Sentinel loops",
+            "Nested loops"
+        ],
+        "Deliverables": [
+            "Repetition algorithms",
+            "Trace tables",
+            "Loop analysis" 
+        ],
+        "pages": {
+          "overview": { "title": "Repetition Structures","type": "content","source": "content/03/overview03.html"},
+          "loops": { "title": "Loops","type": "content","resource": "https://uid100.github.io/edu-core/shared/loops.html"},
+          "constructs": { "title": "Constructs - Review","type": "content","resource": "https://uid100.github.io/edu-core/shared/constructs.html"},
+          "magic-numbers": { "title": "Unnamed Constants - Magic Numbers","type": "content","resource": "https://uid100.github.io/edu-core/shared/magic-numbers.html"},
+          "self-documenting": { "title": "Documenting Code","type": "content","resource": "https://uid100.github.io/edu-core/shared/self-documenting-code.html"},
+          "demo": { "title": "Sample Code", "type": "content", "resource": "https://uid100.github.io/py/03-iteration/demo/sample_code.html"},
+          "end": { "title": "End of Module 3: Repetitive Processing", "type": "content", "source": "content/end-module.html"}
+          },
+          "lab": {
+            "title": "Lab #3 - Repetitive Processing",
+            "taskListUrl": "https://uid100.github.io/py/03-iteration/ex/task-list.json",
+            "fragmentsBase": "https://uid100.github.io/py/03-iteration/ex/"
+          }
+      },
+      "04": { "title": "Module 4 - Functions and Modular Code",
+        "COR Alignment": [
+            "Functions",
+            "Parameter passing",
+            "Modular design",
+            "Scope"
+        ],
+        "OER Reading": [
+            "Chapter 6: Functions"
+        ],
+        "Topics": [
+            "Function design",
+            "Parameters",
+            "Return values",
+            "Local variables",
+            "Variable scope",
+            "Program decomposition"
+        ],
+        "Deliverables": [
+            "Deliverables",
+            "Multi-function applications",
+            "Functional decomposition diagrams"
+        ],
+        "pages": {
+          "overview": { "title": "Defining and Using Functions","type": "content","source": "content/04/overview04.html"},
+          "chapter4": { "title": "Functions","type": "content","resource": "https://uid100.github.io/py/notes/murach2d/ch4.html"},
+          "modular": { "title": "Writing Modular Code","type": "content","source": "content/04/modular.html"},
+          "pycache": { "title": "Understanding __pycache__","type": "content","resource": "https://uid100.github.io/py/content/bytecode.html"},
+          "end": { "title": "End of Module 4: Functions", "type": "content", "source": "content/end-module.html"}
+        },
+        "lab": {
+          "title": "Lab #4 - Functions",
+          "taskListUrl": "https://uid100.github.io/py/04-functions/ex/task-list.json",
+          "fragmentsBase": "https://uid100.github.io/py/04-functions/ex/"
+        } 
+      },
+      "05": { "title": "Module 5 - Testing and Debugging",
+        "COR Alignment": [
+            "Testing",
+            "Debugging",
+            "Documentation",
+            "Software engineering practices"
+        ],
+        "OER Reading": [
+            "Instructor materials"
+        ],
+        "Topics": [
+            "Trace execution",
+            "Common errors",
+            "Debugging strategies",
+            "IDE debugging tools",
+            "Reading error messages",
+            "Program documentation",
+            "Code quality"
+        ],
+        "Deliverables": [
+            "Debugging labs",
+            "Code review activities"
+        ],
+        "pages": {
+          "overview": { "title": "Software Testing","type": "content","source": "content/05/overview05.html"},
+          "stages": { "title": "Software Test - Stages","type": "content","source": "content/05/stages.html"},
+          "disc-testing": { "title": "Debugging", "type": "content", "source": "/content/05/disc-testing.html"},
+          "end": { "title": "End of Module 5: Testing and Debugging", "type": "content", "source": "/content/end-module.html"}
+        },
+        "lab": {
+          "title": "Lab #5 - Testing and Debugging",
+          "taskListUrl": "https://uid100.github.io/py/05-testing/ex/task-list.json",
+          "fragmentsBase": "https://uid100.github.io/py/05-testing/ex/"
+        }
+      },
+      "06": { "title": "Module 6 - Collections: Arrays, Lists, and Tuples",
+        "COR Alignment": [
+            "Collections and data structures"
+        ],
+        "OER Reading": [
+            "Chapter 3: Objects and Collections",
+            "Chapter 9: Lists"
+        ],
+        "Topics": [
+            "Lists",
+            "Tuples",
+            "Indexing",
+            "Slicing",
+            "Iterating collections",
+            "Basic collection algorithms"
+        ],
+        "Deliverables": [
+            "Data-processing programs",
+            "Collection manipulation exercises"
+        ],
+        "pages": {
+          "overview": { "title": "Data Collections","type": "content","source": "content/06/overview06.html"},
+          "fstrings": { "title": "Formatting with f-strings","type": "content","resource": "https://uid100.github.io/py/content/fstrings.html"},
+          "variables": {"title": "Variables: A Careful Review!","type": "content", "resource": "https://uid100.github.io/py/content/variables.html" },
+          "arrays": {"title": "Arrays: Intentional Collections","type": "content", "resource": "https://uid100.github.io/py/content/arrays.html" },
+          "lists": {"title": "Lists: The Python Way","type": "content", "resource": "https://uid100.github.io/py/content/lists.html" },
+          "end": { "title": "End of Module 6: Collections", "type": "content", "source": "/content/end-module.html"}
+        },
+        "lab": {
+          "title": "Lab #6 - Collections",
+          "taskListUrl": "https://uid100.github.io/py/06-collections/ex/task-list.json",
+          "fragmentsBase": "https://uid100.github.io/py/06-collections/ex/"
+        }
+      },
+      "07": { "title": "Module 7 - File I/O and Exception Handling",
+        "COR Alignment": [
+            "File processing",
+            "Data persistence",
+            "Exception handling",
+            "Program robustness"
+        ],
+        "OER Reading": [
+            "Chapter 14: Files and Exceptions"
+        ],
+        "Topics": [
+            "Reading files",
+            "Writing files",
+            "CSV data",
+            "Exception handling",
+            "Input validation",
+            "Defensive programming"
+        ],
+        "Deliverables": [
+            "File-processing applications"
+        ],
+        "pages": {
+          "overview": { "title": "File I/O and Exception Handling", "type": "content","source": "content/07/overview07.html"},
+          "filetypes": { "title": "File Types", "type": "content", "source": "content/07/filetypes.html"},
+          "exceptions": { "title": "Exceptions", "type": "content", "source": "content/07/exceptions.html"},
+          "end": { "title": "End of Module 7: File IO and Exception Handling", "type": "content", "source": "/content/end-module.html"}
+        },
+        "lab": {
+          "title": "Lab #7 - File IO and Exception Handling",
+          "taskListUrl": "https://uid100.github.io/py/07-files/ex/task-list.json",
+          "fragmentsBase": "https://uid100.github.io/py/07-files/ex/"
+        }
+      },
+      "08": { "title": "Module 8 - Dictionaries and Sets",
+        "COR Alignment": [
+            "Collections",
+            "Fundamental data structures"
+        ],
+        "OER Reading": [
+            "Chapter 10: Dictionaries"
+        ],
+        "Topics": [
+            "Key-value pairs",
+            "Dictionary methods",
+            "Sets",
+            "Searching",
+            "Basic data organization"
+        ],
+        "Deliverables": [
+            "Data lookup applications"
+        ],
+        "pages": {
+          "overview": { "title": "Dictionaries","type": "content","source": "content/08/overview08.html"},
+          "chapter12": { "title": "Dictionaries", "type": "content", "resource": "https://uid100.github.io/py/notes/murach2d/ch12.html"},
+          "end": { "title": "End of Module 8: Dictionaries", "type": "content", "source": "/content/end-module.html"}
+        },
+        "lab": {
+          "title": "Lab #8 - Dictionaries",
+          "taskListUrl": "https://uid100.github.io/py/08-dictionaries/ex/task-list.json",
+          "fragmentsBase": "https://uid100.github.io/py/08-dictionaries/ex/"
+        }
+      },
+      "09": { "title": "Module 9 - Classes and Objects",
+        "COR Alignment": [
+            "Classes",
+            "Objects",
+            "Attributes",
+            "Methods"
+        ],
+        "OER Reading": [
+            "Chapter 11: Classes and Objects"
+        ],
+        "Topics": [
+            "Defining classes",
+            "Constructors",
+            "Instance variables",
+            "Methods",
+            "Encapsulation"
+        ],
+        "Deliverables": [
+            "UML-style class diagrams",
+            "Object-oriented programs"
+        ],
+        "pages": {
+          "overview": { "title": "Object-Oriented Programming","type": "content","source": "content/09/overview09.html"},
+          "objects": { "title": "Objects and Classes","type": "content",  "resource": "https://uid100.github.io/py/content/objects.html"},
+          "droids": { "title": "Droids: A Case Study in OOP","type": "content",  "resource": "https://uid100.github.io/edu-core/shared/modules/oop-concepts/droids.html"},
+          "end": { "title": "End of Module 9: Object-Oriented Programming", "type": "content", "source": "/content/end-module.html"}
+        },
+        "lab": {
+          "title": "Lab #9 - Object-Oriented Programming",
+          "taskListUrl": "https://uid100.github.io/py/09-classes/ex/task-list.json",
+          "fragmentsBase": "https://uid100.github.io/py/09-classes/ex/"
+        }
+      },
+      "10": { "title": "Module 10 - Inheritance and Polymorphism",
+        "COR Alignment": [
+            "Object-oriented programming"
+        ],
+        "OER Reading": [
+            "Chapter 13: Inheritance"
+        ],
+        "Topics": [
+            "Inheritance",
+            "Derived classes",
+            "Overriding methods",
+            "Reuse through inheritance"
+        ],
+        "Deliverables": [
+            "Multi-class projects"
+        ],
+        "pages": {
+          "overview": { "title": "Inheritance and Polymorphism","type": "content","source": "content/10/overview10.html"},
+          "inheritance": { "title": "Inheritance","type": "content",  "resource": "https://uid100.github.io/py/content/inheritance.html"},
+          "end": { "title": "End of Module 10: Inheritance and Polymorphism", "type": "content", "source": "/content/end-module.html"}
+        },
+        "lab": {
+          "title": "Lab #10 - Inheritance and Polymorphism",
+          "taskListUrl": "https://uid100.github.io/py/10-inheritance/ex/task-list.json",
+          "fragmentsBase": "https://uid100.github.io/py/10-inheritance/ex/"
+        }
+      },
+      "11": { "title": "Module 11 - Event-Driven Programming",
+        "note": "this is an optional module for 16-week sections, not in 8-week term.",
+        "COR Alignment": [
+            "This is not explicitly required by the COR, but is appropriate as an enrichment/capstone topic that applies previous learning outcomes."
+        ],
+        "pages": {
+          "overview": { "title": "Event-Driven Programming","type": "content","source": "content/11/overview11.html"},
+          "events": { "title": "Events","type": "content",  "resource": "https://uid100.github.io/py/11-gui/events.html"},
+          "tkinter": { "title": "Tkinter","type": "content",  "resource": "https://uid100.github.io/py/11-gui/tkinter.html"},
+          "matplotlib": { "title": "Matplotlib","type": "content",  "resource": "https://uid100.github.io/py/11-gui/matplotlib.html"},
+          "end": { "title": "End of Module 11: Event-Driven Programming", "type": "content", "source": "/content/end-module.html"}
+        },
+        "OER Reading": [
+            "Chapter 15: Data Science (selected sections)"
+        ],
+        "Topics": [
+            "Event-driven programming",
+            "GUI programming",
+            "Tkinter",
+            "Matplotlib",
+            "Event handling"
+        ],
+        "Deliverables": [
+            "GUI applications"
+        ],
+        "lab": {
+          "title": "Lab #11 - Event-Driven Programming",
+          "taskListUrl": "https://uid100.github.io/py/11-gui/ex/task-list.json",
+          "fragmentsBase": "https://uid100.github.io/py/11-gui/ex/"
+        }
+      },
+      "12": { "title": "Module 12 - APIs and Web Applications",
+        "note":"optional module: fix the numbering",
+        "COR Alignment": [
+            "This is not explicitly required by the COR, but is appropriate as an enrichment/capstone topic that applies previous learning outcomes."
+        ],
+        "OER Reading": [
+            "Instructor materials"
+        ],
+        "Topics": [
+            "JSON",
+            "REST APIs",
+            "Requests library",
+            "Working with external data",
+            "Introductory data analysis"
+        ],
+        "Deliverables": [
+            "API project"
+        ],
+        "pages": {
+          "overview": { "title": "Web Applications","type": "content","source": "content/12/overview12.html"},
+          "web-services": { "title": "Web Services","type": "content","resource": "https://uid100.github.io/edu-core/shared/web-services.html"},
+          "discussion": { "title": "Discussion: Web Services","type": "content","source": "content/12/disc-web-services.html"},
+          "end": { "title": "End of Module 12: Web Applications", "type": "content", "source": "/content/end-module.html"}
+        },
+        "lab": {
+          "title": "Lab #12 - Web Applications",
+          "taskListUrl": "https://uid100.github.io/py/12-webapps/ex/task-list.json",
+          "fragmentsBase": "https://uid100.github.io/py/12-webapps/ex/"
+        }
+
+      },
+      "50": {
+        "title": "Module 50 - Course Wrap-Up and Software Engineering Practices",
+        "COR Alignment": [
+            "Testing",
+            "Debugging",
+            "Documentation",
+            "Software engineering",
+            "Responsible AI-assisted development"
+        ],
+        "Topics": [
+            "Project integration",
+            "Documentation standards",
+            "Maintainability",
+            "Responsible AI usage"
+        ],
+        "Deliverables": [
+            ""
+        ],
+        "pages": {
+          "overview": { "title": "Review and Next Steps","type": "content","source": "content/50/overview50.html"},
+          "summary": { "title": "Review and Next Steps","type": "content","resource": "https://uid100.github.io/py/50-wrap-up/summary.html"},
+          "end": { "title": "End of Course", "type": "content", "source": "/content/end-module.html"}
+        }
+      },
+      "99": {
+        "title": "Resources",
+        "pages": {
+          "page1": { "title": "Review and Next Steps","type": "content","source": "/content/12/lesson1/page1.html"},
+          "f-strings": { "title": "Python f-strings", "type": "content", "source": "/content/99/f-strings.html" },
+          "faq": { "title": "FAQ", "type": "content", "source": "/content/99/faq.html"}
+        }
+      }
+    }
+  },
+  "templates": {
+    "syllabus": "core:syllabus",
+    "syllabus(override)": "syllabus/syllabus.html",
+    "policies": "policies/policies.html"
+  },
+  "materials": {
+    "required": "materials/required.html",
+    "recommended": "materials/recommended.html"
+  },
+  "gradingDetails": "grading/grading-details.html",
+  "accommodations": "accommodations/accommodations.html",
+  "topicOutline": "outline/outline.html"
+}
