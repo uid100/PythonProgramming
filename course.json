@@ -448,8 +448,7 @@
         }
 
       },
-      "50": {
-        "title": "Module 50 - Course Wrap-Up and Software Engineering Practices",
+      "13": { "title": "Module 13 - Course Wrap-Up and Software Engineering Practices",
         "COR Alignment": [
             "Testing",
             "Debugging",
@@ -467,8 +466,8 @@
             ""
         ],
         "pages": {
-          "overview": { "title": "Review and Next Steps","type": "content","source": "content/50/overview50.html"},
-          "summary": { "title": "Review and Next Steps","type": "content","resource": "https://uid100.github.io/py/50-wrap-up/summary.html"},
+          "overview": { "title": "Review and Next Steps","type": "content","source": "content/13/overview13.html"},
+          "summary": { "title": "Review and Next Steps","type": "content","resource": "https://uid100.github.io/py/13-wrap-up/summary.html"},
           "end": { "title": "End of Course", "type": "content", "source": "/content/end-module.html"}
         }
       },
