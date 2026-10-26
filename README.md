@@ -62,20 +62,20 @@ https://uid100.github.io/PythonProgramming/COR
 
 | mod. | title	| ch | title |
 |---|---|---|---|
-|	module	title	|		|	chapter	|
-|	M1	Applications and Sequential Data Processing	|	Ch1, Ch2	|	1-Statements, 2-Expressions	|
-|	M2	Control Structures: Conditional Execution	|	Ch3, Ch4	|	3-Objects, 4-Decisions	|
-|	M3	Control Structures: Iteration	|	Ch5	|	5-Loops	|
-|	M4	Functions and Modular Code	|	Ch6, Ch7	|	6-Functions, 7-Modules	|
-|	M5	Testing and Debugging & String Processing |	Ch8	|	8-Strings	|
-|	M6	Collections: Arrays, Lists, and Tuples	|	Ch9	|	9-Lists	|
-|	M7	File I/O and Exception Handling	|	Ch14	|	14-Files and Exceptions	|
-|	M8	Dictionaries and Sets	|	Ch10	|	10-Dictionaries	|
-|	M9	Classes and Objects	|	Ch11	|	11-Classes and Objects	|
-|	M10	Inheritance and Polymorphism	|	Ch13	|	13-Inheritance	|
-|	M11	Event-Driven Programming & Data Visualization	|	Ch15	|	15-Data Science	|
-|	M12	APIs and Web Applications	|		|		|
-|	M13	Course Wrap-Up and Software Engineering Practices	|		|		|
+| module | title	|		|	chapter	|
+| M1 | Applications and Sequential Data Processing	|	Ch1, Ch2	|	1-Statements, 2-Expressions	|
+| M2 | Control Structures: Conditional Execution	|	Ch3, Ch4	|	3-Objects, 4-Decisions	|
+| M3 | Control Structures: Iteration	|	Ch5	|	5-Loops	|
+| M4 | Functions and Modular Code	|	Ch6, Ch7	|	6-Functions, 7-Modules	|
+| M5 | Testing and Debugging & String Processing |	Ch8	|	8-Strings	|
+| M6 | Collections: Arrays, Lists, and Tuples	|	Ch9	|	9-Lists	|
+| M7 | File I/O and Exception Handling	|	Ch14	|	14-Files and Exceptions	|
+| M8 | Dictionaries and Sets	|	Ch10	|	10-Dictionaries	|
+| M9 | Classes and Objects	|	Ch11	|	11-Classes and Objects	|
+| M10 | Inheritance and Polymorphism	|	Ch13	|	13-Inheritance	|
+| M11 | Event-Driven Programming & Data Visualization	|	Ch15	|	15-Data Science	|
+| M12 | APIs and Web Applications	|		|		|
+| M13 | Course Wrap-Up and Software Engineering Practices	|		|		|
 
 
 ### 16 weeks
