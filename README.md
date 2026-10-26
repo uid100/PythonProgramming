@@ -58,3 +58,21 @@ https://uid100.github.io/PythonProgramming/COR
 - [COR: (Palomar) **CSIT 175** Intro to Python Programming](COR/reference-docs/Python_Course_Outline_CSIT175.pdf)
 
 
+
+
+| module| title	                                            | chapter |
+|-------|---------------------------------------------      |-------|
+|   1	|Applications and Sequential Data Processing        | 1-Statements, 2-Expressions |
+|   2	|Control Structures: Conditional Execution	        | 3-Objects, 4-Decisions |
+|   3	|Control Structures: Iteration	                    | 5-Loops |
+|   4	|Functions and Modular Code	                        | 6-Functions, 7-Modules |
+|   5	|Testing and Debugging	                            | ***, 8-Strings |
+|   6	|Collections: Arrays, Lists, and Tuples	            | 9-Lists |
+|   7	|File I/O and Exception Handling 	                | 14-Files and Exceptions |
+|   8	|Dictionaries and Sets	                            | 10-Dictionaries |
+|   9	|Classes and Objects	                            | 11-Classes and Objects |
+|   10	|Inheritance and Polymorphism	                    | 13-Inheritance |
+|   11	|Event-Driven Programming	                        | 15-Data Science |
+|   12	|APIs and Web Applications	                        | ***  |
+|   13	|Course Wrap-Up and Software Engineering Practices	| *** |
+
