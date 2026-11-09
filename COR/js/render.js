@@ -1,14 +1,16 @@
 const DEBUG =
     new URLSearchParams(window.location.search).get("debug") === "true";
-console.log(`DEBUG mode: ${DEBUG}`);
-
 
 const COR_CONFIG = {
-    draft: true
+    draft: false
 };
 
-console.log(`DEBUG mode: ${DEBUG}`);
-console.log(`DRAFT mode: ${COR_CONFIG.draft}`);
+if (DEBUG) {
+    console.log(`DEBUG mode: ${DEBUG}`);
+}
+if (COR_CONFIG.draft) {
+    console.log(`DRAFT mode: ${COR_CONFIG.draft}`);
+}
 
 function getDraftTimestamp() {
     const d = new Date();
