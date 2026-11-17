@@ -1,8 +1,10 @@
-# CS 250 - PythonProgramming
+# Python Programming
+ - Cuyamaca College CS 250 Intro to Python Programming
 
 ## COR
 
-Course Outline and Curriculum for COMP-122 compliant Python Programming course
+Course Outline and Curriculum for [COMP-122](https://data-c-idsystem.org/descriptors/final/show/341) compliant Python Programming course.
+
 [_document link_](https://uid100.github.io/PythonProgramming/COR/index.html?debug=true)
 
 https://uid100.github.io/PythonProgramming/COR
