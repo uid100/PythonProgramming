@@ -1,4 +1,10 @@
-# CS 250 - PythonProgramming
+# Python Programming I
+
+## Introduction to Python Programming
+- Cuyamaca College: CS 250
+
+[Python Programming II](https://uid100.github.io/PythonProgramming2)
+
 
 ## COR
 
